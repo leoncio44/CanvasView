@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:orientation="vertical"
-	android:layout_width="match_parent"
-	android:layout_height="match_parent"
-	tools:context=".MainActivity"
-	android:background="#66C2E4">
+<LinearLayout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://schemas.android.com/apk/res/android ">
 
 	<LinearLayout
 		android:layout_width="match_parent"
@@ -17,7 +12,7 @@
 		<com.android.graphics.CanvasView
 			android:id="@+id/canvas"
 			android:layout_width="match_parent"
-			android:layout_height="350dp"/>
+			android:layout_height="350dp" />
 
 	</LinearLayout>
 
@@ -36,25 +31,25 @@
 				android:layout_width="wrap_content"
 				style="?android:attr/buttonStyleSmall"
 				android:layout_height="wrap_content"
-				android:text="Pencil"/>
+				android:text="Pencil" />
 
 			<Button
 				android:layout_width="wrap_content"
 				style="?android:attr/buttonStyleSmall"
 				android:layout_height="wrap_content"
-				android:text="Eraser"/>
+				android:text="Eraser" />
 
 			<Button
 				android:layout_width="wrap_content"
 				style="?android:attr/buttonStyleSmall"
 				android:layout_height="wrap_content"
-				android:text="Elipse"/>
+				android:text="Elipse" />
 
 			<Button
 				android:layout_width="wrap_content"
 				style="?android:attr/buttonStyleSmall"
 				android:layout_height="wrap_content"
-				android:text="Rect."/>
+				android:text="Rect." />
 
 		</LinearLayout>
 
@@ -68,20 +63,20 @@
 				android:layout_width="wrap_content"
 				style="?android:attr/buttonStyleSmall"
 				android:layout_height="wrap_content"
-				android:text="Fill"/>
+				android:text="Fill" />
 
 			<Button
 				android:layout_width="wrap_content"
 				style="?android:attr/buttonStyleSmall"
 				android:layout_height="wrap_content"
-				android:text="Save"/>
+				android:text="Save" />
 
 			<Button
 				android:layout_width="wrap_content"
 				style="?android:attr/buttonStyleSmall"
 				android:layout_height="wrap_content"
-				android:text="Open"/>
-			
+				android:text="Open" />
+
 		</LinearLayout>
 
 		<LinearLayout
@@ -92,21 +87,21 @@
 
 			<SeekBar
 				android:layout_width="100dp"
-				android:layout_height="wrap_content"/>
+				android:layout_height="wrap_content" />
 
 			<ImageView
 				android:src="@android:drawable/ic_delete"
 				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"/>
+				android:layout_height="wrap_content" />
 
 			<SeekBar
 				android:layout_width="100dp"
-				android:layout_height="wrap_content"/>
+				android:layout_height="wrap_content" />
 
 			<ImageView
 				android:src="@android:drawable/ic_delete"
 				android:layout_width="wrap_content"
-				android:layout_height="wrap_content"/>
+				android:layout_height="wrap_content" />
 
 		</LinearLayout>
 
